@@ -39,8 +39,8 @@ export default function Page({ params }) {
               <div class="woocommerce-MyAccount-content">
                 <div class="woocommerce-notices-wrapper"></div>
                 <p>
-                  Order #<mark class="order-number">{order.id}</mark> was placed on{" "}
-                  <mark class="order-date">{formatDate(order.date_created)}</mark> and is currently{" "}
+                  Order #<mark class="order-number">{order.id}</mark> was placed on
+                  <mark class="order-date">{formatDate(order.date_created)}</mark> and is currently
                   <mark class="order-status">{order.status}</mark>.
                 </p>
 
@@ -66,10 +66,10 @@ export default function Page({ params }) {
                         <td class="woocommerce-table__product-name product-name">
                           <a href="https://www.omofreshfood.com/product/jaggery-chocolate/">
                            {order.name}
-                          </a>{" "}
+                          </a>
                           <strong class="product-quantity">
                             &times;&nbsp;2
-                          </strong>{" "}
+                          </strong>
                         </td>
 
                         <td class="woocommerce-table__product-total product-total">
@@ -80,7 +80,7 @@ export default function Page({ params }) {
                               </span>
                               {order.total}
                             </bdi>
-                          </span>{" "}
+                          </span>
                         </td>
                       </tr>
                     </tbody>

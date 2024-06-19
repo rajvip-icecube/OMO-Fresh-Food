@@ -43,7 +43,7 @@ export default function Page() {
                         <br />
                         47 W 13th St, New York, NY 10011, USA
                         <br />
-                        New York, NY 10011{" "}
+                        New York, NY 10011
                       </address>
                     </div>
 
@@ -66,7 +66,7 @@ export default function Page() {
                         <br />
                         47 W 13th St, New York, NY 10011, USA
                         <br />
-                        New York, NY 10011{" "}
+                        New York, NY 10011
                       </address>
                     </div>
                   </div>

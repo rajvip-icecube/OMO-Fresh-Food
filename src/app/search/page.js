@@ -42,7 +42,7 @@ const Search = () => {
       <section className="category-main py-space">
         <div className="container">
           <div className="row">
-            <div className="woocommerce-notices-wrapper"></div>{" "}
+            <div className="woocommerce-notices-wrapper"></div>
           </div>
           <div className="row">
          <SideBar />
@@ -131,7 +131,7 @@ const Search = () => {
                         rel="nofollow"
                       >
                         Add to cart
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -192,7 +192,7 @@ const Search = () => {
                         rel="nofollow"
                       >
                         Add to cart
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -252,7 +252,7 @@ const Search = () => {
                         rel="nofollow"
                       >
                         Add to cart
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -312,7 +312,7 @@ const Search = () => {
                         rel="nofollow"
                       >
                         Add to cart
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -374,7 +374,7 @@ const Search = () => {
                         rel="nofollow"
                       >
                         Add to cart
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </li>
@@ -434,7 +434,7 @@ const Search = () => {
                         rel="nofollow"
                       >
                         Add to cart
-                      </a>{" "}
+                      </a>
                     </div>
                   </div>
                 </li>

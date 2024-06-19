@@ -15,7 +15,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 Our website address is: https://www.omofreshfood.com.
               </p>
@@ -24,7 +24,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 When visitors leave comments on the site we collect the data
                 shown in the comments form, and also the visitor&#8217;s IP
@@ -44,7 +44,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 If you upload images to the website, you should avoid uploading
                 images with embedded location data (EXIF GPS) included. Visitors
@@ -56,7 +56,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 If you leave a comment on our site you may opt-in to saving your
                 name, email address and website in cookies. These are for your
@@ -93,7 +93,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 Articles on this site may include embedded content (e.g. videos,
                 images, articles, etc.). Embedded content from other websites
@@ -113,7 +113,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 If you request a password reset, your IP address will be
                 included in the reset email.
@@ -123,7 +123,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 If you leave a comment, the comment and its metadata are
                 retained indefinitely. This is so we can recognize and approve
@@ -145,7 +145,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 If you have an account on this site, or have left comments, you
                 can request to receive an exported file of the personal data we
@@ -159,7 +159,7 @@ export default function Page() {
 
               <p>
                 <strong className="privacy-policy-tutorial">
-                  Suggested text:{" "}
+                  Suggested text:
                 </strong>
                 Visitor comments may be checked through an automated spam
                 detection service.

@@ -90,7 +90,7 @@ const Products = () => {
                 {currentProducts.map((product) => (
                   <>
                     <li
-                      key={product.id}
+                      key={index}
                       className="product type-product post-128 status-publish first instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple"
                     >
                       <div className="product-image">

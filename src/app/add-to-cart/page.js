@@ -203,7 +203,7 @@ const handleRemove = (itemId) => {
                                 data-title="Subtotal"
                               >
                                 <span className="woocommerce-Price-amount amount">
-                                  <bdi key={item.id}>
+                                  <bdi key={index}>
                                     <span className="woocommerce-Price-currencySymbol">
                                       $
                                     </span>

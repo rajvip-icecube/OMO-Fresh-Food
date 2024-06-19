@@ -286,7 +286,7 @@ export default function Page() {
                               autocomplete="postal-code"
                             />
                           </span>
-                        </p>{" "}
+                        </p>
                       </div>
 
                       <p>
@@ -308,7 +308,7 @@ export default function Page() {
                           type="hidden"
                           name="_wp_http_referer"
                           value="/my-account/edit-address/shipping/"
-                        />{" "}
+                        />
                         <input
                           type="hidden"
                           name="action"

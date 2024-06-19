@@ -47,7 +47,7 @@ export default function Page() {
                   </li>
 
                   <li className="woocommerce-order-overview__total total">
-                    Total:{" "}
+                    Total:
                     <strong>
                       <span className="woocommerce-Price-amount amount">
                         <bdi>
@@ -88,10 +88,10 @@ export default function Page() {
                         <td className="woocommerce-table__product-name product-name">
                           <Link href={`/products/${item.id}`}>
                           {item.name} 
-                          </Link>{" "}
+                          </Link>
                           <strong className="product-quantity">
                             &times;&nbsp;{item.quantity}
-                          </strong>{" "}
+                          </strong>
                         </td>
 
                         <td className="woocommerce-table__product-total product-total">
@@ -102,7 +102,7 @@ export default function Page() {
                               </span>
                               {item.total}
                             </bdi>
-                          </span>{" "}
+                          </span>
                         </td>
                       </tr>
                     </tbody>

@@ -12,7 +12,7 @@ export default function page() {
         <section className="category-main py-space">
           <div className="container">
             <div className="row">
-              <div className="woocommerce-notices-wrapper"></div>{" "}
+              <div className="woocommerce-notices-wrapper"></div>
             </div>
             <div className="row">
             <SideBar />
@@ -21,7 +21,7 @@ export default function page() {
                 <div className="bapf_no_products">
                   <div className="woocommerce-no-products-found">
                     <div className="woocommerce-info">
-                      No products were found matching your selection.{" "}
+                      No products were found matching your selection.
                     </div>
                   </div>
                 </div>

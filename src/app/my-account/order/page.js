@@ -89,7 +89,7 @@ export default function Page() {
                               &#036;
                             </span>
                             {order.total}
-                          </span>{" "}
+                          </span>
                           for {order.items}
                         </td>
                         <td
@@ -101,7 +101,7 @@ export default function Page() {
                             class="woocommerce-button button view"
                           >
                             View
-                          </Link>{" "}
+                          </Link>
                         </td>
                       </tr>
                     

@@ -38,7 +38,7 @@ export default function Trending() {
         <div className="container">
           <div className="heading-wrap mb-4 mb-lg-5">
             <h3 className="display-4 fw-medium mb-3 text-center text-secondary title">
-              What's Trending
+              Whats Trending
             </h3>
           </div>
          

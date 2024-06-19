@@ -332,7 +332,7 @@ export default function Page() {
                               autocomplete="email"
                             />
                           </span>
-                        </p>{" "}
+                        </p>
                       </div>
 
                       <p>
@@ -354,7 +354,7 @@ export default function Page() {
                           type="hidden"
                           name="_wp_http_referer"
                           value="/my-account/edit-address/billing/"
-                        />{" "}
+                        />
                         <input
                           type="hidden"
                           name="action"
