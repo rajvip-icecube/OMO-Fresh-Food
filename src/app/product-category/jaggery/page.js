@@ -87,7 +87,7 @@ const Products = () => {
               </div>
 
               <ul className="products columns-3">
-                {currentProducts.map((product) => (
+                {currentProducts.map((product , index) => (
                   <>
                     <li
                       key={index}

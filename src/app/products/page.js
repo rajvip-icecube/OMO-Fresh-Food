@@ -122,7 +122,7 @@ export default function Products() {
                 </form>
               </div>
               <ul className="products columns-3">
-                {currentProducts.map((product) => (
+                {currentProducts.map((product , index) => (
                   <li
                     key={index}
                     className="product type-product post-128 status-publish first instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple"

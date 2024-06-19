@@ -55,7 +55,7 @@ export default function BestSeller(){
       </div>
       <div options={options} className="owl-theme" id="best-seller">
       <Slider>
-      {products.slice(0, 4).map((product) => (
+      {products.slice(0, 4).map((product , index) => (
         <div className="item" key={index}>
           <div className="card px-3 py-4 rounded-4 text-center border-0">
             <img

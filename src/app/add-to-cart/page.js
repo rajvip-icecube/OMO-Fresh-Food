@@ -77,7 +77,7 @@ const handleRemove = (itemId) => {
                    
                     method="post"
                   >
-                    {cartItems.map((item) => (
+                    {cartItems.map((item, index) => (
                       <div className="table-responsive order-1 w-100 mb-space-mini" key={index}>
                         <table
                           className="shop_table shop_table_responsive cart woocommerce-cart-form__contents table overflow-hidden mb-0"

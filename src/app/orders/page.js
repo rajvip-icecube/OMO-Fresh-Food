@@ -82,7 +82,7 @@ export default function Page() {
                         </th>
                       </tr>
                     </thead>
-                    {orderData.line_items.map((item) => (
+                    {orderData.line_items.map((item, index) => (
                     <tbody key={index}>
                       <tr className="woocommerce-table__line-item order_item">
                         <td className="woocommerce-table__product-name product-name">
