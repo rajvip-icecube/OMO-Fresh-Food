@@ -1,0 +1,31 @@
+.footer-logo a {
+    max-width: 11em;
+}
+.footer-menu,
+.footer-social {
+    border-left: 0.1em solid var(--bs-greycarbon);
+}
+footer ul li a {
+    color: var(--bs-pinkgrey);
+    font-size: 0.9em;
+}
+footer ul li a:hover {
+    color: var(--bs-primary);
+}
+.copyright ul li:before {
+    border-left: 0.1em solid var(--bs-pinkgrey);
+    height: 0.8em;
+    top: 0.3em;
+    left: -0.8em;
+}
+
+@media screen and (max-width:991px) {
+    .footer-menu:nth-of-type(2) {
+        border-left: none;
+    }
+}
+@media screen and (max-width:767px) {
+    .footer-social {
+        border: none;
+    }
+}

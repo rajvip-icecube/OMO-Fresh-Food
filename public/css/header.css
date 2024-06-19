@@ -1,0 +1,274 @@
+header {
+    z-index: 999;
+}
+header .navbar-nav .nav-item .nav-link {
+    color: var(--bs-blacklight);
+    font-size: 0.9em;
+}
+header .navbar-nav .nav-item .nav-link:hover, 
+header .navbar-nav .nav-item.current-menu-item .nav-link {
+    color: var(--bs-primary);
+}
+header .navbar-nav .nav-item .nav-link:hover:before, 
+header .navbar-nav .nav-item.current-menu-item .nav-link:before {
+    content: '';
+    border-bottom: 0.1em solid var(--bs-primary);
+    position: absolute;
+    left: 0.5em;
+    bottom: 0;
+    width: 0.6em;
+}
+header .navbar-brand {
+    margin: -0.5em 0 -1.345em;
+    width: 12em;
+}
+header .navbar-brand:before {
+    content: '';
+    width: 100%;
+    height: 1.8em;
+    background: url(../images/logo-be.png) no-repeat;
+    position: absolute;
+    top: -1.3em;
+    background-size: contain;
+    background-position: top center;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+header .navbar-toggler:focus {
+    box-shadow: none;
+}
+header .add-on .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+ .header-minicart > a{
+    padding: 0.8em 1em;
+    cursor: pointer;
+}
+header .hidden-search-box {
+    display: none;
+    height: 2.5em;
+    width: 15em;
+    right: -0.8em;
+    top: 2.2em;
+}
+header .addon-btn {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: var(--bs-blacklight);
+    border: 0 none;
+}
+header .traingle {
+    height: 0.5em;
+    width: 0.5em;
+    background-color: transparent;
+    border-left: 0.5em transparent solid;
+    border-right: 0.5em transparent solid;
+    border-bottom: 0.7em var(--bs-blacklight) solid;
+    right: 0.7em;
+    top: -0.6em;
+}
+
+/*------------- Start of minicart ------------*/
+.header-minicart .items-count {
+    width: 2.2em;
+    height: 2.2em;
+    border-radius: 50%;
+    line-height: 2.2em;
+    top: 0.9em;
+    right: -1.1em;
+    font-size: 0.7em;
+}
+.header-minicart > .mega_menu.cart {
+    position: absolute;
+    right: 0;
+    display: none;
+    width: 280px;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 15%);
+    margin-top: 0.5em;
+    list-style: none;
+}
+.minicart-open .header-minicart > .mega_menu.cart{
+    display:block;  
+}
+.header-minicart .item-count {
+    display: none;
+}
+.header-minicart .cart_list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.header-minicart .cart_list::-webkit-scrollbar-track {
+  background: #d4d3d1; 
+}
+.header-minicart .cart_list::-webkit-scrollbar-thumb {
+  background: var(--bs-primary); 
+}
+
+
+.header-minicart .mini_cart_item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    padding-right:20px;
+    align-items: center;
+}
+.header-minicart .cart_list {
+    padding: 0;
+}
+.header-minicart .mini_cart_item:not(:last-child) {
+    border-bottom: solid 1px #d7d7d7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.header-minicart .mini_cart_item .product-image {
+    width: 3em;
+    height: auto;
+    margin-right: 0.5em;
+    order: 1;
+}
+.header-minicart .mini_cart_item .product-image img {
+    width: auto;
+}
+.header-minicart .mini_cart_item > a img{
+    height:auto;
+    width:auto; 
+}
+
+.header-minicart .minicart-right {
+    order: 2;
+    width: calc(100% - 75px);
+    font-size: 16px;
+}
+.header-minicart .woocommerce-mini-cart__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid #d7d7d7 1px;
+    border-top: solid #d7d7d7 1px;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+    font-size: 17px;
+}
+.header-minicart .woocommerce-mini-cart__total .amount {
+    font-weight: 500;
+    color: var(--bs-primary);
+}
+.header-minicart .minicart-right .product-name {
+    display: block;
+    font-weight: 500;
+}
+
+.header-minicart .mini_cart_item .remove_from_cart_button {
+    order: 3;
+    position: absolute;
+    top: 0.3em;
+    right: 0;
+    color: var(--bs-primary) !important;
+    font-weight: normal !important;
+    background: transparent !important;
+    width: auto;
+    height: auto;
+    font-size: 1.5em;
+    line-height: 1;
+}
+.header-minicart .mini_cart_item .remove_from_cart_button:hover {
+    color: var(--bs-primary) !important;
+}
+.header-minicart .woocommerce-mini-cart__buttons > a {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    color: var(--bs-white) !important;
+    text-transform: uppercase;
+    background-color: var(
+    --bs-primary);
+    text-decoration: none;
+    outline: none;
+    border-radius: 0.3em;
+    padding: 0.6em 1em;
+}
+.woocommerce .cart .button, .woocommerce .cart input.button {
+    max-width: 100%;
+}
+.header-minicart .woocommerce-mini-cart__buttons .checkout {
+    margin-top: 0.5em;
+}
+/*------------- End of minicart ------------*/
+
+
+@media screen and (max-width:1199px) {
+    header .navbar-brand {
+        margin: -0.5em 0 -3.6%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    header .navbar-brand {
+        margin: 0 0 -1.1em;
+        width: 6em;
+        padding-top: 0.5em !important;
+    }
+    header .navbar-brand:before {
+        display: none;
+    }
+    header .navbar-nav .sub-menu li:not(:last-child) {
+        margin-bottom: 0;
+    }
+    header .navbar-collapse {
+        background-color: var(--bs-blacklight);
+        top: 5.4em;
+        position: absolute;
+    }
+    header .navbar-nav .nav-item .nav-link {
+        color: var(--bs-white);
+    }
+    header .navbar-nav .nav-item .nav-link:hover:before, 
+    header .navbar-nav .nav-item.current-menu-item .nav-link:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header .navbar-brand {
+        margin: 0 0 -4.4%;
+    }
+    header .navbar-collapse {
+        top: 5.4em;
+    }
+}
+
+@media screen and (max-width:575px) {
+    header .navbar-brand {
+        width: 3.5em;
+        margin: 0 0 -13px;
+    }
+    .header-minicart .cart-count {
+        top: 0.6em;
+    }
+    header .hidden-search-box {
+        left: -5em;
+    }
+    .header-minicart a {
+        padding: 0.6em 0.5em;
+    }
+    header .traingle {
+        border-bottom: 0.7em rgb(254 170 0) solid;
+        left: -4em;
+        right: 0;
+        margin: 0 auto;
+    }
+    header .navbar-collapse {
+        top: 3.4em;
+    }
+    .header-minicart .items-count {
+        top: 0.6em;
+    }
+}
