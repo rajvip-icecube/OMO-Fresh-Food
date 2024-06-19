@@ -1,7 +1,9 @@
 'use client'
 import { useEffect, useState } from "react";
 import { getProducts } from "@/utils/woocommerce";
-import Carousel from "react-elastic-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import { useDispatch, useSelector  } from "react-redux"
 import { addItemToCart } from "@/redux/addToCartSlice";
 export default function BestSeller(){
@@ -52,7 +54,7 @@ export default function BestSeller(){
         </h3>
       </div>
       <div options={options} className="owl-theme" id="best-seller">
-      <Carousel>
+      <Slider>
       {products.slice(0, 4).map((product) => (
         <div className="item" key={product.id}>
           <div className="card px-3 py-4 rounded-4 text-center border-0">
@@ -77,7 +79,7 @@ export default function BestSeller(){
           </div>
         </div>
       ))}
-        </Carousel>
+        </Slider >
     
     </div>
     </div>
