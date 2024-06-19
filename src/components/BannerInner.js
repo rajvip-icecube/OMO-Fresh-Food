@@ -33,7 +33,7 @@ export default function BannerInner({
                       </a>
                     </li>
                     »<li>{name}</li>
-                    {isSearch && <li>Search results: "{searchname}"</li>}
+                    {isSearch && <li>Search results: {searchname}</li>}
                     {isProductCategory && <><span>»</span><li>{productcategoryname}</li></>}
                   </ul>
                 </div>
