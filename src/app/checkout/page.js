@@ -816,7 +816,7 @@ export default function CheckoutPage() {
                           </thead>
                           <tbody>
                             {cartItems.map((item) => (
-                              <tr classNameName="cart_item">
+                              <tr classNameName="cart_item" key={index}>
                                 <td classNameName="product-name">
                                   {item.name} <strong classNameName="product-quantity">× {quantities[item.id] || 1}</strong>
                                 </td>

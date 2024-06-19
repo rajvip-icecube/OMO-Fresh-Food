@@ -56,7 +56,7 @@ export default function Page() {
                       </tr>
                     </thead>
                     {orders.map((order) => (
-                    <tbody>
+                    <tbody key={index}>
                       <tr class="woocommerce-orders-table__row woocommerce-orders-table__row--status-processing order">
                         <td
                           class="woocommerce-orders-table__cell woocommerce-orders-table__cell-order-number"

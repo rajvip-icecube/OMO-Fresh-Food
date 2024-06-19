@@ -83,7 +83,7 @@ export default function Page() {
                       </tr>
                     </thead>
                     {orderData.line_items.map((item) => (
-                    <tbody>
+                    <tbody key={index}>
                       <tr className="woocommerce-table__line-item order_item">
                         <td className="woocommerce-table__product-name product-name">
                           <Link href={`/products/${item.id}`}>
