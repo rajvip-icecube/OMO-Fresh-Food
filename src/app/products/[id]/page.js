@@ -29,7 +29,7 @@ export default function Page({ params }) {
           <div className="content-wrapper">
             <div className="single-product-notices">
               <div className="container">
-                <div className="woocommerce-notices-wrapper"></div>{" "}
+                <div className="woocommerce-notices-wrapper"></div>
               </div>
             </div>
 
@@ -141,7 +141,7 @@ export default function Page({ params }) {
                             sizes="(max-width: 222px) 100vw, 222px"
                           />
                         </a>
-                      </div>{" "}
+                      </div>
                     </div> */}
                   </div>
 
@@ -374,7 +374,7 @@ export default function Page({ params }) {
                                 className="comment-reply-title"
                               >
                                 Be the first to review &ldquo;Jaggery
-                                Balls&rdquo;{" "}
+                                Balls&rdquo;
                                 <small>
                                   <a
                                     rel="nofollow"
@@ -426,7 +426,7 @@ export default function Page({ params }) {
                                     id="submit"
                                     className="submit"
                                     value="Submit"
-                                  />{" "}
+                                  />
                                   <input
                                     type="hidden"
                                     name="comment_post_ID"
@@ -447,7 +447,7 @@ export default function Page({ params }) {
                                   value="9365dabcd9"
                                 />
                                 <script></script>
-                              </form>{" "}
+                              </form>
                             </div>
                           </div>
                         </div>
@@ -490,7 +490,7 @@ export default function Page({ params }) {
                               consequuntur magni dolores eos qui ratione
                               voluptatem sequi nesciunt. Neque porro quisquam
                               est, qui dolorem ipsum quia dolor sit amet,
-                              consectetur.{" "}
+                              consectetur.
                             </div>
                           </div>
                         </div>
@@ -523,7 +523,7 @@ export default function Page({ params }) {
                               consequuntur magni dolores eos qui ratione
                               voluptatem sequi nesciunt. Neque porro quisquam
                               est, qui dolorem ipsum quia dolor sit amet,
-                              consectetur.{" "}
+                              consectetur.
                             </div>
                           </div>
                         </div>
@@ -556,7 +556,7 @@ export default function Page({ params }) {
                               consequuntur magni dolores eos qui ratione
                               voluptatem sequi nesciunt. Neque porro quisquam
                               est, qui dolorem ipsum quia dolor sit amet,
-                              consectetur.{" "}
+                              consectetur.
                             </div>
                           </div>
                         </div>
@@ -589,7 +589,7 @@ export default function Page({ params }) {
                               consequuntur magni dolores eos qui ratione
                               voluptatem sequi nesciunt. Neque porro quisquam
                               est, qui dolorem ipsum quia dolor sit amet,
-                              consectetur.{" "}
+                              consectetur.
                             </div>
                           </div>
                         </div>
@@ -665,9 +665,9 @@ export default function Page({ params }) {
                               rel="nofollow"
                             >
                               Add to cart
-                            </a>{" "}
+                            </a>
                           </div>
-                        </li>{" "}
+                        </li>
                       </div>
                       <div className="item">
                         <li className="product type-product post-131 status-publish instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
@@ -725,9 +725,9 @@ export default function Page({ params }) {
                               rel="nofollow"
                             >
                               Add to cart
-                            </a>{" "}
+                            </a>
                           </div>
-                        </li>{" "}
+                        </li>
                       </div>
                       <div className="item">
                         <li className="product type-product post-129 status-publish last instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
@@ -787,9 +787,9 @@ export default function Page({ params }) {
                               rel="nofollow"
                             >
                               Add to cart
-                            </a>{" "}
+                            </a>
                           </div>
-                        </li>{" "}
+                        </li>
                       </div>
                       <div className="item">
                         <li className="product type-product post-139 status-publish first instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
@@ -849,9 +849,9 @@ export default function Page({ params }) {
                               rel="nofollow"
                             >
                               Add to cart
-                            </a>{" "}
+                            </a>
                           </div>
-                        </li>{" "}
+                        </li>
                       </div>
                       <div className="item">
                         <li className="product type-product post-132 status-publish instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
@@ -911,9 +911,9 @@ export default function Page({ params }) {
                               rel="nofollow"
                             >
                               Add to cart
-                            </a>{" "}
+                            </a>
                           </div>
-                        </li>{" "}
+                        </li>
                       </div>
                       <div className="item">
                         <li className="product type-product post-138 status-publish instock product_cat-jaggery has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
@@ -971,9 +971,9 @@ export default function Page({ params }) {
                               rel="nofollow"
                             >
                               Add to cart
-                            </a>{" "}
+                            </a>
                           </div>
-                        </li>{" "}
+                        </li>
                       </div>
                     </div>
                   </div>

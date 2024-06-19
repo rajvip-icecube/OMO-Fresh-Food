@@ -1,7 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import { getProducts } from "@/utils/woocommerce";
-import Carousel from "react-elastic-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 export default function Trending() {
   const options = {
     items: 4,
@@ -41,7 +43,7 @@ export default function Trending() {
           </div>
          
             <div className="owl-theme" id="trendig-slider" options={options}>
-            <Carousel>
+            <Slider>
             {products.slice(0, 5).map((product) => (
               <div className="item">
                 <div className="card px-3 py-4 rounded-4 text-center">
@@ -69,7 +71,7 @@ export default function Trending() {
                 </div>
               </div>
                   ))}
-          </Carousel>
+          </Slider>
             </div>
           
         </div>
