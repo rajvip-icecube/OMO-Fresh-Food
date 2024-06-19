@@ -43,6 +43,8 @@
     "tailwindcss": "^3.4.1"
   },
   "resolutions": {
-    "react-owl-carousel2/react": "16.14.0"
+    "react-owl-carousel2/react": "16.14.0",
+    "react": "16.14.0",
+  "react-dom": "16.14.0"
   }
 }
