@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { useEffect, useState } from "react";
 import { getProducts } from "@/utils/woocommerce";
 import Slider from "react-slick";

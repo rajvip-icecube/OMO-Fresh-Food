@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Footer from "../../components/Footer";
@@ -203,7 +203,7 @@ const handleRemove = (itemId) => {
                                 data-title="Subtotal"
                               >
                                 <span className="woocommerce-Price-amount amount">
-                                  <bdi key={index}>
+                                  <bdi>
                                     <span className="woocommerce-Price-currencySymbol">
                                       $
                                     </span>

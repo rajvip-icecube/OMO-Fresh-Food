@@ -31,8 +31,8 @@ export default function Customer(){
                   </div>
                 </div>
                 <div className="card-text fst-italic mb-3">
-                  <p className="fs-3">“They have nutritional and tasty products in reasonable price and their services was
-                    honored. I recommended it”</p>
+                  <p className="fs-3">They have nutritional and tasty products in reasonable price and their services was
+                    honored. I recommended it</p>
                 </div>
                 <div className="card-reivew mt-auto">
                   <img src="images/customper-review.png" alt="customper-review" />
@@ -54,7 +54,7 @@ export default function Customer(){
                   </div>
                 </div>
                 <div className="card-text fst-italic mb-3">
-                  <p className="fs-3">“Once again I was very impressed. Would highly recommend!”</p>
+                  <p className="fs-3">Once again I was very impressed. Would highly recommend!</p>
                 </div>
                 <div className="card-reivew mt-auto">
                   <img src="/images/customper-review.png" alt="customper-review" />
@@ -76,8 +76,8 @@ export default function Customer(){
                   </div>
                 </div>
                 <div className="card-text fst-italic mb-3">
-                  <p className="fs-3">“They have nutritional and tasty products in reasonable price and their services was
-                    honored. I recommended it”</p>
+                  <p className="fs-3">They have nutritional and tasty products in reasonable price and their services was
+                    honored. I recommended it</p>
                 </div>
                 <div className="card-reivew mt-auto">
                   <img src="images/customper-review.png" alt="customper-review" />
@@ -119,8 +119,8 @@ export default function Customer(){
                   </div>
                 </div>
                 <div className="card-text fst-italic mb-3">
-                  <p className="fs-3">“They have nutritional and tasty products in reasonable price and their services was
-                    honored. I recommended it”</p>
+                  <p className="fs-3">They have nutritional and tasty products in reasonable price and their services was
+                    honored. I recommended it</p>
                 </div>
                 <div className="card-reivew mt-auto">
                   <img src="images/customper-review.png" alt="customper-review" />
@@ -142,7 +142,7 @@ export default function Customer(){
                   </div>
                 </div>
                 <div className="card-text fst-italic mb-3">
-                  <p className="fs-3">“Once again I was very impressed. Would highly recommend!”</p>
+                  <p className="fs-3">Once again I was very impressed. Would highly recommend!</p>
                 </div>
                 <div className="card-reivew mt-auto">
                   <img src="/images/customper-review.png" alt="customper-review" />
@@ -164,8 +164,8 @@ export default function Customer(){
                   </div>
                 </div>
                 <div className="card-text fst-italic mb-3">
-                  <p className="fs-3">“They have nutritional and tasty products in reasonable price and their services was
-                    honored. I recommended it”</p>
+                  <p className="fs-3">They have nutritional and tasty products in reasonable price and their services was
+                    honored. I recommended it</p>
                 </div>
                 <div className="card-reivew mt-auto">
                   <img src="images/customper-review.png" alt="customper-review" />
