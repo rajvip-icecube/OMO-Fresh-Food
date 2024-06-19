@@ -45,7 +45,7 @@ export default function Trending() {
             <div className="owl-theme" id="trendig-slider" options={options}>
             <Slider>
             {products.slice(0, 5).map((product) => (
-              <div className="item">
+              <div className="item" key={index}>
                 <div className="card px-3 py-4 rounded-4 text-center">
                   <img
                     className="card-img-top mx-auto"
