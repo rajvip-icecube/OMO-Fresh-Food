@@ -16,7 +16,6 @@ export default function CheckoutPage() {
   const router = useRouter();
 
   useEffect(() => {
-    // Retrieve cart data from session storage
     const storedCartData = sessionStorage.getItem("cartData");
     if (storedCartData) {
       setCartData(JSON.parse(storedCartData));
@@ -46,7 +45,7 @@ export default function CheckoutPage() {
     }));
 
     const orderData = {
-      payment_method: "cod", // Replace with your desired payment method
+      payment_method: "cod",
       payment_method_title: "Cash on Delivery",
       set_paid: false,
       billing: {
@@ -83,7 +82,6 @@ export default function CheckoutPage() {
       const newOrder = await createOrder(orderData);
       console.log("Order created successfully:", newOrder);
       sessionStorage.setItem("orderData", JSON.stringify(newOrder));
-      // Navigate to order confirmation page
       router.push("/orders");
     } catch (error) {
       console.error("Error creating order:", error);

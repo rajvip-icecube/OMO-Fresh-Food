@@ -11,7 +11,6 @@ export default function Page({ params }) {
     console.log("ID", id);
     const[order, setOrder] = useState(null);
     useEffect(() => {
-        // Fetch product data based on the id
         const fetchData = async () => {
           try {
             const productData = await fetchOrderById(id);

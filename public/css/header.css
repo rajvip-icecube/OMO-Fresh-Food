@@ -70,7 +70,7 @@ header .traingle {
     top: -0.6em;
 }
 
-/*------------- Start of minicart ------------*/
+
 .header-minicart .items-count {
     width: 2.2em;
     height: 2.2em;
@@ -201,7 +201,6 @@ header .traingle {
 .header-minicart .woocommerce-mini-cart__buttons .checkout {
     margin-top: 0.5em;
 }
-/*------------- End of minicart ------------*/
 
 
 @media screen and (max-width:1199px) {

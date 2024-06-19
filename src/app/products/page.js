@@ -19,7 +19,7 @@ export default function Products() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const { sortedProducts, sortOrder, sortProducts } = useSortProducts(products);
-  const { price } = useContext(PriceFilterContext); // Get the price filter from context
+  const { price } = useContext(PriceFilterContext);
   const dispatch = useDispatch();
   const cartCount = useSelector((state) => state.cart.cartCount);
 
@@ -170,7 +170,6 @@ export default function Products() {
                         data-effect="mfp-fade"
                         data-context="default"
                         onClick={() => handleProductClick(product)}
-                        // href={`/products/${product.id}`}
                       >
                         <i class="fa fa-eye" aria-hidden="true"></i>
                       </button>

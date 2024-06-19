@@ -26,11 +26,7 @@ const Products = () => {
 
     fetchProducts();
   }, [getProducts]);
-
-  // Calculate the number of pages
   const totalPages = Math.ceil(products.length / productsPerPage);
-
-  // Get the products for the current page
   const startIndex = (currentPage - 1) * productsPerPage;
   const endIndex = startIndex + productsPerPage;
   const currentProducts = products.slice(startIndex, endIndex);
@@ -107,7 +103,6 @@ const Products = () => {
                             alt=""
                             decoding="async"
                             fetchpriority="high"
-                            // srcset="https://www.omofreshfood.com/wp-content/uploads/2024/05/single-product-300x300.jpg 300w, https://www.omofreshfood.com/wp-content/uploads/2024/05/single-product-150x150.jpg 150w, https://www.omofreshfood.com/wp-content/uploads/2024/05/single-product-100x100.jpg 100w"
                             sizes="(max-width: 300px) 100vw, 300px"
                           />
                         </a>

@@ -123,7 +123,6 @@ export default function Header() {
                   </button>
                   {isSearchBoxVisible && (
                     <form
-                      // id="hidden-search-box"
                       className="bg-primary float-end  navbar-form position-absolute z-3"
                       role="search"
                       onSubmit={handleSearchSubmit}

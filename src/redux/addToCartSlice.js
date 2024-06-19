@@ -1,9 +1,9 @@
-// addToCartSlice.js
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   cartItems: [],
-  cartCount: 0 // Changed from totalCount to cartCount
+  cartCount: 0 
 };
 
 const addToCartSlice = createSlice({
@@ -20,7 +20,6 @@ const addToCartSlice = createSlice({
         } else {
           state.cartItems.push(newItem);
         }
-        // Update cart count after adding the item
         state.cartCount = state.cartItems.reduce((acc, item) => acc + item.quantity, 0); 
         localStorage.setItem("cartCount", state.cartCount);
       },
@@ -29,14 +28,12 @@ const addToCartSlice = createSlice({
         state.cartItems = state.cartItems.filter(
           (item) => item.id !== idToRemove
         );
-        // Update cart count after removing the item
         state.cartCount = state.cartItems.reduce((acc, item) => acc + item.quantity, 0);
         localStorage.setItem("cartCount", state.cartCount);
       },
       clearCart(state) {
         state.cartItems = [];
-        // Update cart count after clearing the cart
-        state.cartCount = 0; // Changed from totalCount to cartCount
+        state.cartCount = 0;
         localStorage.setItem("cartCount", 0);
       },
     },

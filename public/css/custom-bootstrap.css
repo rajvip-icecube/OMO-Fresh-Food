@@ -29,8 +29,6 @@
     --bs-body-line-height: 1.2;
     --bs-body-color: var(--bs-blacklight);
 }
-
-/*----------- Start of tags ------------*/
 p,
 a {
     font-size: 16px;
@@ -149,9 +147,6 @@ input[type="search"]::-webkit-search-results-decoration {
 .fs-6 {
     font-size: 0.8em !important;
 }
-/*----------- End of tags ------------*/
-
-/*--------- Start of variables ---------*/
 .box-shadow {
     box-shadow: var(--bs-shadow);
 }
@@ -311,9 +306,6 @@ body .owl-theme .owl-nav [class*=owl-] {
 .font-cocogoose {
     font-family: var(--bs-font-cocogoose);
 }
-/*--------- End of variables ---------*/
-
-/*--------- Start of space class ---------*/
 .my-space {
     margin-top: var(--bs-space);
     margin-bottom: var(--bs-space);
@@ -370,7 +362,6 @@ body .owl-theme .owl-nav [class*=owl-] {
 .pe-space-mini {
     padding-right: calc(var(--bs-space) / 3);
 }
-/*--------- End of space class ---------*/
 
 @media screen and (max-width: 1199px) {
     :root {

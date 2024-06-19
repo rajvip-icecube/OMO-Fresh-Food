@@ -14,7 +14,7 @@ const Search = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Extract query from the URL
+
     const queryParam = new URLSearchParams(window.location.search).get("query");
     setQuery(queryParam || "");
 
@@ -30,7 +30,7 @@ const Search = () => {
         setLoading(false);
       } catch (error) {
         console.error("Error fetching search results:", error);
-        setLoading(false); // Ensure loading state is set to false in case of error
+        setLoading(false); 
       }
     }
   }, [router]);

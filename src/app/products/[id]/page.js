@@ -9,7 +9,6 @@ export default function Page({ params }) {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    // Fetch product data based on the id
     const fetchData = async () => {
       try {
         const productData = await getProductById(id);

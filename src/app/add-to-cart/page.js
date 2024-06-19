@@ -39,10 +39,9 @@ const handleRemove = (itemId) => {
     if (quantities[itemId] > 1) {
       setQuantities((prevQuantities) => ({
         ...prevQuantities,
-        [itemId]: prevQuantities[itemId] - 1, // Decrement the quantity for the specific item ID
+        [itemId]: prevQuantities[itemId] - 1, 
       }));
     } else {
-      // If quantity is already 1, remove the item from quantities state
       setQuantities((prevQuantities) => {
         const updatedQuantities = { ...prevQuantities };
         delete updatedQuantities[itemId];
