@@ -61,7 +61,7 @@ export default function Page() {
                   </li>
 
                   <li className="woocommerce-order-overview__payment-method method">
-                    Payment method: <strong>Cash on delivery</strong>
+                    Payment method: <strong>Payed with Card</strong>
                   </li>
                 </ul>
 
@@ -144,7 +144,7 @@ export default function Page() {
                       </tr>
                       <tr>
                         <th scope="row">Payment method:</th>
-                        <td>Cash on delivery</td>
+                        <td>Payed with Card</td>
                       </tr>
                       <tr>
                         <th scope="row">Total:</th>

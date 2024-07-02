@@ -122,7 +122,7 @@ export default function Page({ params }) {
                       </tr>
                       <tr>
                         <th scope="row">Payment method:</th>
-                        <td>Cash on delivery</td>
+                        <td>Payed with card</td>
                       </tr>
                       <tr>
                         <th scope="row">Total:</th>
